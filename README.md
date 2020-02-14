@@ -1,4 +1,4 @@
 # kinectMesh
-convert rgb and depth images form the Kinect camera into 3D mesh.
+Convert RGB and depth data from Kinect Camera images into 3D mesh.
 
 ![Kinect Mesh](https://i.imgur.com/caU4nHs.png)
