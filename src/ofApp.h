@@ -12,34 +12,24 @@ public:
     
     ofFloatPixels depthPixels;
     ofPixels rgbPixels;
-    ofTexture rgbTexture;
-    ofTexture depthTexture;
-    ofMesh mesh;
-    ofMesh meshCopy;
+    ofTexture rgbTexture, depthTexture;
+    
+    ofMesh mesh, meshCopy;
     ofEasyCam camera;
 
-    std::size_t meshRows;
-    std::size_t meshCols;
-    
-    float meshWidth;
-    float meshHeight;
+    std::size_t meshRows, meshCols;
+    float meshWidth, meshHeight;
  
     std::vector<glm::vec3> allCoordinates;
-    std::vector<float> xValues;
-    std::vector<float> yValues;
-    std::vector<float> zValues;
-    std::vector<int> grayPixels;
-    
-    std::vector<int> rChannel;
-    std::vector<int> gChannel;
-    std::vector<int> bChannel;
+    std::vector<float> xValues, yValues, zValues;
+    std::vector<int> grayPixels, rChannel, gChannel, bChannel;
     
     //mesh manipulation stuff
     vector<glm::vec3> offsets;
-    
-    float startOrbitTime;
     vector<float> distances;
-    vector<float> angles;
-    glm::vec3 meshCentroid;
+    
+//    float startOrbitTime;
+//    vector<float> angles;
+//    glm::vec3 meshCentroid;
     
 };
